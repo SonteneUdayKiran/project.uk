@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+h3{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+body{
+    margin: 0;
+    padding: 0%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+img{
+    margin: auto;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    image-resolution: 100%;
+    border-radius: 20px;
+}
+.Features{
+  float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #7be069;
+    align-items: center;
+    width: 400px;
+    height: 580px;
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    font-size: large;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+input[type="button"]{
+    margin: 0%;
+    padding: 10px;
+    background-color: rgb(12, 13, 15);
+    color: white;
+    font-style: "italic";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  p a {
+    background-color: red;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-size: small;
+    height: 20px;
+    width: 60px;
+    border-radius: 20px;
+    
+  }.main{
+    content: "";
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    padding: 40px;
+    flex-direction: row; 
+  }
+  .youtube-link {
+    color: red;
+    text-decoration: none;
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+  }
+  form{
+    text-align: center;
+    text-shadow: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .image img{
+    content: "";
+    display: flex;
+    justify-content: space-evenly;
+    float: center;
+    padding: 40px;
+    flex-direction: row; 
+    width: 500px;
+    height: 200px;
+    display: flex;
+  }
+  .youtube-link p{
+    color: rgb(54, 12, 206);
+  }
+hr{
+  border: 1.5px solid black;
+  margin: 10px 0px;
+  }
